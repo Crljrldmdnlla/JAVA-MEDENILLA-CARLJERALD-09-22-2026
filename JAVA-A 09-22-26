@@ -31,24 +31,6 @@ System.out.println("Is Student? " +isStudent);//True);
         System.out.print("Enter a sentence about yourself: ");
         String fullsentence = scanner.nextLine();// reads the entire line or paragraph.
         System.out.println("You said: "+fullsentence);
-        
-//Control Flow(if/else,switch case,loops(for,while,do while))
-System.out.println("Enter your exam score: ");
-int Examscore = scanner.nextInt();
-
-if (Examscore >=90){
-    System.out.println("Grade: A");
-}
-else if (Examscore >=80){
-    System.out.println("Grade: B");
-}
-else if (Examscore >=70){
-    System.out.println("Grade: C");
-}
-else{
-    System.out.println("Grade: F");
-}
-        scanner.close();
 
 //Operators and Expressions
 //=,-,*,/,%,&&,||,>,<,<=,>=,!=
@@ -90,6 +72,24 @@ int counter = 5;
 System.out.println("\ncounter++ (post): "+counter++);//5
 System.out.println("counter now: "+counter++);//6
 System.out.println("++counter (pre): "+ counter++);//7
+
+//Control Flow(if/else,switch case,loops(for,while,do while))
+System.out.println("Enter your exam score: ");
+int Examscore = scanner.nextInt();
+
+if (Examscore >=90){
+    System.out.println("Grade: A");
+}
+else if (Examscore >=80){
+    System.out.println("Grade: B");
+}
+else if (Examscore >=70){
+    System.out.println("Grade: C");
+}
+else{
+    System.out.println("Grade: F");
+}
+        scanner.close();
 
     }
 }
