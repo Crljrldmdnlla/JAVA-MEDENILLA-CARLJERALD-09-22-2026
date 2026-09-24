@@ -7,7 +7,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);//Reading the one word(stop at whitespace)
 
 // Declaring variables of different data types---
-int age = 18;
+int age = 19;
 double price = 20.30;
 float weight = 70.6f;
 char grade = 'A';
@@ -16,7 +16,7 @@ String name = "Jerald";
 
 //---Output using System.out.println-----
 System.out.println("Name: " +name);//Jerald
-System.out.println("Age: " +age);//18
+System.out.println("Age: " +age);//19
 System.out.println("Price: " +price);//20.30
 System.out.println("Weight: " +weight);//70.60
 System.out.println("Grade: " +grade);//A
